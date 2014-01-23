@@ -11,7 +11,7 @@ The exercise aims to demonstrate basic functionality of the library, as well as 
 
 https://github.com/nesterko/our_first_d3js_visual
 
-Then run 'bash server.sh' in the Terminal, go to 
+Then run 'bash server.sh' (requires Python 2.7.x installed on your computer) in the Terminal, go to 
 
 [http://localhost:8888/our-first-d3js-visualization/](http://localhost:8888/our-first-d3js-visualization/)
 

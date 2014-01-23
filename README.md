@@ -13,8 +13,11 @@ https://github.com/nesterko/our_first_d3js_visual
 
 Then run 'bash server.sh' in the Terminal, go to 
 
-http://localhost:8888/our-first-d3js-visualization/
+[http://localhost:8888/our-first-d3js-visualization/](http://localhost:8888/our-first-d3js-visualization/)
 
 After that, erase the header from index.html, and go exlore and edit jdriver.js (there are more instructions in the file).
 
 Enjoy!
+
+ps. There are several things used here, such as Jade, which are not described in-depth (yet).
+You don't need to know them to go through the exercise and experiment.

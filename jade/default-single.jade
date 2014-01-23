@@ -1,0 +1,21 @@
+!!!5
+html(lang='en')
+  head 
+    meta(charset="utf-8")
+    title
+      block title
+  block scripts
+    script(type="text/javascript", src="../lib/jquery/jquery-1.8.2.min.js")
+    script(type="text/javascript", src="../lib/utils/utils-general.js")
+    script(type="text/javascript", src="../lib/d3/d3.v3.min.js")
+    script(type="text/javascript", src="../lib/d3/queue.min.js")
+  block styles
+    link(rel="stylesheet", href="../css/common.css")
+  body
+    #headerandcontent
+      #content
+        block content
+        #endcols
+    #footer
+      | &#xA9; 
+      a(href="http://twitter.com/snesterko") Sergiy O. Nesterko

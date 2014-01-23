@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+
+svg line, svg path.domain {
+  stroke : #000000;
+  opacity : 0.3;
+}
+
+body h3 {
+  font-family : "Istok Web";
+}
+
+svg text {
+  font-family : "Times";
+}
+
+svg text.hello {
+  font-family : "PT Sans" !important;
+  font-size : 24px;
+  font-family : bold;
+  text-anchor : middle;
+  dominant-baseline : middle;
+}
+
+.ivisualcontainer h2 {
+  font-family : "Istok Web";
+  font-size : 25px;
+}
+
+.ivisualcontainer {
+  display: inline-block;
+  border : solid;
+}
+
+.ivisualcontainer.userviscontrols {
+  font-size : 19px;
+  margin-top : 10px;
+  text-align : center;
+  display : inline-block;
+  vertical-align : bottom;
+  border : none;
+}
+
+.ivisualcontainer h2 {
+  color : black;
+  text-align : center;
+  padding : 0px;
+}
+
+.viscontainer {
+  padding-top : 20px;
+}
+
+.userviscontrols .button {
+  margin-left : 5px;
+  display : inline-block;
+}
+
+.uservisinfobox {
+  position : absolute;
+  background : rgba(0, 0, 0, 0.4);
+  color : white;
+  padding : 10px;
+  border-radius : 5px;
+}
+
+.uservisinfobox p {
+  text-align : left;
+  font-family : "Garamond";
+  font-size : 19px;
+  margin : 0px;
+}

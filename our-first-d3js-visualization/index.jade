@@ -1,0 +1,17 @@
+extends ../jade/default-single
+
+block title
+  | Our first d3js visualization with display brusing
+block content
+  h3 This is a test boilerplate visualization prepared for Day 2 of the 
+    | <br /> Interactive Visualization course during the January term at Harvard University's 
+    | <br /> Graduate School of Arts and Sciences.
+    | <br /> The exercise aims to demonstrate basic functionality of the library,
+    | <br /> as well as teach basic display brushing using d3js, using two template displays below as boilerplate.
+    | <br /> To start working on it, pull from the Github repo: </br />
+    a(href="https://github.com/nesterko/our_first_d3js_visual") https://github.com/nesterko/our_first_d3js_visual
+    | ,
+    | <br /> run 'bash server.sh' in the Terminal, go to http://localhost:8888/our-first-d3js-visualization/,
+    | <br /> erase this header from index.html, and go exlore and edit jdriver.js
+  #VISUALIZATIONCONTAINER.viscontainer
+  script(src='jdriver.js?c=VISUALIZATIONCONTAINER&w=1&h=450')

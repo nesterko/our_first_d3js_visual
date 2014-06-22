@@ -76,7 +76,7 @@ function init (container, title, w, h, xlab, ylab, data, name, xvar, yvar)
 
   // TODO this line needs to be removed and the below needs to be uncommented in 
   // order to add axes to the plots
-  var ycon = xcon = undefined;
+  var ycon = undefined, xcon = undefined;
   /*
   var ycon = svg.append("g")
     .attr("class", "y axis")
@@ -116,7 +116,7 @@ var data = {display1 : [], display2 : []};
 
 function processData (rawdata)
 {
-  result = Object();
+  var result = Object();
   result.alldata = rawdata.map(
       function (el) {
         el.hours_of_sleep_per_week = +el.hours_of_sleep_per_week;
@@ -130,7 +130,7 @@ function processData (rawdata)
     {text : 'Hello, World!'}
     ];
   // add plot-specific pieces of data
-  displaynames = displays.map( function (el) { return el.name; });
+  var displaynames = displays.map( function (el) { return el.name; });
   result.colors = d3.scale.category10().domain(displaynames);
   return result;
 }
